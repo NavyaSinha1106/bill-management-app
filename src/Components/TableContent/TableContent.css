@@ -1,0 +1,31 @@
+.TableHeading{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    background-color: rgb(9, 9, 75);
+    color: beige;
+    width: 100%;
+}
+
+.TableHeading h2{
+    width: 21%;
+
+}
+
+.TableRow{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: beige;
+    width: 100%;
+}
+
+.TableRow h2{
+    width: 20%;
+}
+
+hr{
+    margin: 0;
+    background-color: beige;
+    height: 0.5em;
+}

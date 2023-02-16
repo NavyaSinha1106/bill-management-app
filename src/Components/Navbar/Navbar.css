@@ -1,0 +1,12 @@
+.Navbar{
+    background-color: black;
+    color:beige;
+    height: fit-content;
+    text-align: center;
+}
+
+.Navbar h1{
+    margin: 0;
+    padding: 0.5em;
+
+}

@@ -1,0 +1,55 @@
+.footer {
+  background-color: black;
+  color: beige;
+  height: fit-content;
+  text-align: center;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NoOfBills {
+  color: beige;
+  display: flex;
+  align-items: center;
+}
+
+.NoOfBills h3{
+  margin: 0;
+  margin-left: 1.5em;
+}
+
+.NoOfBills p{
+  margin: 0;
+  padding-left: 0.5em;
+}
+
+.minBills{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.minBills input{
+  margin: 0;
+}
+
+.minBills p{
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.minBills button{
+  margin: 0;
+}
+
