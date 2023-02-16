@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Bill Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A bill management dashboard built using React and Redux.
 
-## Available Scripts
+## Features of the App
 
-In the project directory, you can run:
+## LEVEL-1:
+* The user must be able to manually add, edit and remove bills. 
+* The user must be able to filter bills by category. 
+* Draw a time-series chart of the monthly billing cycle.
 
-### `npm start`
+## Bills for January 
+![image](https://user-images.githubusercontent.com/105153638/219467264-a3b17b47-722a-4b49-aef0-052a380ab9bc.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Bills for May
+![image](https://user-images.githubusercontent.com/105153638/219472384-65120a90-3aaf-4826-99a1-8393dd80b372.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Bills for Education category for a particular month
+![image](https://user-images.githubusercontent.com/105153638/219467575-8d17cebd-80b8-4155-b7d7-27afc270b25e.png)
 
-### `npm test`
+## Form to add a bill
+![image](https://user-images.githubusercontent.com/105153638/219468320-b5219ca1-cce6-4d96-a8de-72fb79d99c51.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Form to edit a bill
+![image](https://user-images.githubusercontent.com/105153638/219468403-6384b242-9f02-48f7-bcb9-9f0a2da0cdd5.png)
 
-### `npm run build`
+## A real time-series chart of the monthly billing cycle.
+![image](https://user-images.githubusercontent.com/105153638/219470454-6a8be398-c77d-48a0-b600-8e8dd5ca63fb.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Level 2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* User must be able to see a minimum number of bills that should be paid.
+* The total value of the should does not exceed the monthly budget value while meeting the condition that no more bills can be added from the remaining bills while highlighting that all the bills that should be paid.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##The minimum number of bills that should be paid for the given budget
+![image](https://user-images.githubusercontent.com/105153638/219471411-062b569f-c330-4fcd-bab5-8e8b0d956c45.png)
 
-### `npm run eject`
+##Technologies used:
+* React
+* Redux
+* Recharts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deploy the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this project you can simply type in the terminal : 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm start
+```
